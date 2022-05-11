@@ -1,10 +1,10 @@
 #!/bin/sh
 
-wget -O /data/hawaii-140101.osm.pbf http://download.geofabrik.de/north-america/us/hawaii-140101.osm.pbf
+# wget -O /data/hawaii-140101.osm.pbf http://download.geofabrik.de/north-america/us/hawaii-140101.osm.pbf
 
-osrm-extract -p /opt/car.lua /data/hawaii-140101.osm.pbf
-osrm-partition /data/hawaii-140101.osrm
-osrm-customize /data/hawaii-140101.osrm
+osrm-extract -p /opt/car.lua /data/vn_car.osm.pbf
+osrm-partition /data/vn_car.osm.pbf
+osrm-customize /data/vn_car.osm.pbf
 
 #ADD
 #

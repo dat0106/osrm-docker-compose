@@ -10,7 +10,7 @@ const results = [];
 //// Do the same thing, but this time use coordinates instead
 // // of node ids.  Internally, a radius search finds the closest
 // // node within 5m
-taglookup.loadOSMExtract(path.join(__dirname,'./washington-latest.osm.pbf'), (err) => {
+taglookup.loadOSMExtract(path.join(__dirname,'./vn_car.osm.pbf'), (err) => {
   if (err) throw err;
     taglookup.annotateRouteFromLonLats(parsedCoordinates, (err, wayIds) => {
         if (err) {

@@ -1,0 +1,1 @@
+copy osm.pbf vao /annotator /backend /data
